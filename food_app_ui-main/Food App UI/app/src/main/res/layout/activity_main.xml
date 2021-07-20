@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="#2E2E2E"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:padding="28dp">
+
+        <ImageView
+            android:layout_width="25dp"
+            android:layout_height="30dp"
+            android:src="@drawable/search"
+            android:layout_centerVertical="true"/>
+
+        <ImageView
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:src="@drawable/profile"
+            android:layout_centerVertical="true"
+            android:layout_alignParentRight="true"/>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp">
+
+        <ImageView
+            android:id="@+id/i1"
+            android:layout_width="10dp"
+            android:layout_height="15dp"
+            android:src="@drawable/location"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="3dp"/>
+
+        <TextView
+            android:id="@+id/t1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Delivery"
+            android:textSize="16dp"
+            android:textColor="#fff"
+            android:textStyle="bold"
+            android:layout_toRightOf="@id/i1"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/t1"
+            android:text="Barddhaman,Telipukur"
+            android:textColor="#2196F3"
+            android:textSize="14dp" />
+
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@drawable/filter"
+            android:layout_alignParentRight="true"/>
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Today's Breakfast"
+            android:textSize="24dp"
+            android:textColor="#fff"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"/>
+
+        <RelativeLayout
+            android:layout_width="400dp"
+            android:layout_height="200dp"
+            android:background="@drawable/big_card"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp">
+
+        <TextView
+            android:id="@+id/tt1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Caramel Pancakes"
+            android:textSize="24dp"
+            android:textColor="#fff"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="120dp"/>
+
+            <ImageView
+                android:layout_width="110dp"
+                android:layout_height="20dp"
+                android:src="@drawable/rating_white_small"
+                android:layout_below="@id/tt1"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="5dp"/>
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="30dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Healthy"
+            android:textSize="24dp"
+            android:textColor="#fff"
+            android:layout_marginLeft="20dp"
+            android:layout_marginBottom="15dp"/>
+
+        <ImageView
+            android:layout_width="400dp"
+            android:layout_height="200dp"
+            android:background="@drawable/home_item_top"
+            android:layout_gravity="center"/>
+
+        <RelativeLayout
+            android:layout_width="400dp"
+            android:layout_height="110dp"
+            android:background="@drawable/home_menu_bottom"
+            android:layout_gravity="center"
+            android:padding="10dp">
+
+            <TextView
+                android:id="@+id/st"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Non Vegetarian - Egg"
+                android:textSize="14dp"
+                android:textColor="#C3C3C3"
+                android:layout_marginTop="5dp"/>
+
+            <TextView
+                android:id="@+id/ht"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Delight grape omlette"
+                android:textSize="18dp"
+                android:textColor="#fff"
+                android:layout_below="@id/st"
+                android:layout_marginTop="5dp"/>
+
+            <ImageView
+                android:layout_width="110dp"
+                android:layout_height="16dp"
+                android:src="@drawable/rating_orange_small"
+                android:layout_below="@id/ht"
+                android:layout_marginTop="8dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="$10"
+                android:textSize="22dp"
+                android:textColor="#fff"
+                android:layout_below="@id/st"
+                android:layout_alignParentRight="true"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="30dp"/>
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

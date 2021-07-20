@@ -1,0 +1,355 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#2E2E2E"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:padding="28dp">
+
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="35dp"
+            android:src="@drawable/search"
+            android:layout_centerVertical="true"/>
+
+        <ImageView
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:src="@drawable/profile"
+            android:layout_centerVertical="true"
+            android:layout_alignParentRight="true"/>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp">
+
+        <ImageView
+            android:id="@+id/i1"
+            android:layout_width="15dp"
+            android:layout_height="15dp"
+            android:src="@drawable/location"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="3dp"/>
+
+        <TextView
+            android:id="@+id/t1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Delivery"
+            android:textSize="18dp"
+            android:textColor="#fff"
+            android:textStyle="bold"
+            android:layout_toRightOf="@id/i1"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Mumbai, Maharashtra"
+            android:textSize="16dp"
+            android:textColor="#C3C3C3"
+            android:layout_below="@id/t1"/>
+
+        <ImageView
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:src="@drawable/filter"
+            android:layout_alignParentRight="true"/>
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        
+        <ImageView
+            android:layout_width="120dp"
+            android:layout_height="130dp"
+            android:src="@drawable/food_img1"
+            android:layout_marginLeft="20dp"/>
+
+        <ImageView
+            android:layout_width="120dp"
+            android:layout_height="130dp"
+            android:src="@drawable/food_img2"
+            android:layout_marginLeft="15dp"/>
+
+        <ImageView
+            android:layout_width="120dp"
+            android:layout_height="130dp"
+            android:src="@drawable/food_img3"
+            android:layout_marginLeft="15dp"/>
+        
+    </LinearLayout>
+    
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Recommended Dishes"
+        android:textSize="26dp"
+        android:textColor="#fff"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="10dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:src="@drawable/menu_img1"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"/>
+
+            <RelativeLayout
+                android:layout_width="316dp"
+                android:layout_height="110dp"
+                android:layout_gravity="center"
+                android:padding="10dp">
+
+                <TextView
+                    android:id="@+id/ht"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:text="Potato Fingers"
+                    android:textColor="#fff"
+                    android:textSize="20dp"
+                    android:textStyle="bold" />
+
+                <ImageView
+                    android:id="@+id/iv1"
+                    android:layout_width="120dp"
+                    android:layout_height="18dp"
+                    android:layout_below="@id/ht"
+                    android:layout_marginTop="8dp"
+                    android:src="@drawable/rating_orange_small" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/iv1"
+                    android:layout_marginTop="5dp"
+                    android:text="Non Vegetarian - Egg"
+                    android:textColor="#C3C3C3"
+                    android:textSize="14dp" />
+
+                <Button
+                    android:layout_width="110dp"
+                    android:layout_height="35dp"
+                    android:text="Order now"
+                    android:textSize="11dp"
+                    android:textColor="#fff"
+                    android:textStyle="bold"
+                    android:background="@drawable/button"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="10dp"/>
+
+            </RelativeLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:src="@drawable/menu_img2"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"/>
+
+            <RelativeLayout
+                android:layout_width="316dp"
+                android:layout_height="110dp"
+                android:layout_gravity="center"
+                android:padding="10dp">
+
+                <TextView
+                    android:id="@+id/ht1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:text="Roasted Salad"
+                    android:textColor="#fff"
+                    android:textSize="20dp"
+                    android:textStyle="bold" />
+
+                <ImageView
+                    android:id="@+id/iv2"
+                    android:layout_width="120dp"
+                    android:layout_height="18dp"
+                    android:layout_below="@id/ht1"
+                    android:layout_marginTop="8dp"
+                    android:src="@drawable/rating_orange_small" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/iv2"
+                    android:layout_marginTop="5dp"
+                    android:text="Non Vegetarian - Egg"
+                    android:textColor="#C3C3C3"
+                    android:textSize="14dp" />
+
+                <Button
+                    android:layout_width="110dp"
+                    android:layout_height="35dp"
+                    android:text="Order now"
+                    android:textSize="11dp"
+                    android:textColor="#fff"
+                    android:textStyle="bold"
+                    android:background="@drawable/button"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="10dp"/>
+
+            </RelativeLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:src="@drawable/menu_img3"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"/>
+
+            <RelativeLayout
+                android:layout_width="316dp"
+                android:layout_height="110dp"
+                android:layout_gravity="center"
+                android:padding="10dp">
+
+                <TextView
+                    android:id="@+id/ht2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:text="Sandwich"
+                    android:textColor="#fff"
+                    android:textSize="20dp"
+                    android:textStyle="bold" />
+
+                <ImageView
+                    android:id="@+id/iv3"
+                    android:layout_width="120dp"
+                    android:layout_height="18dp"
+                    android:layout_below="@id/ht2"
+                    android:layout_marginTop="8dp"
+                    android:src="@drawable/rating_orange_small" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/iv3"
+                    android:layout_marginTop="5dp"
+                    android:text="Non Vegetarian - Egg"
+                    android:textColor="#C3C3C3"
+                    android:textSize="14dp" />
+
+                <Button
+                    android:layout_width="110dp"
+                    android:layout_height="35dp"
+                    android:text="Order now"
+                    android:textSize="11dp"
+                    android:textColor="#fff"
+                    android:textStyle="bold"
+                    android:background="@drawable/button"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="10dp"/>
+
+            </RelativeLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:src="@drawable/menu_img4"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"/>
+
+            <RelativeLayout
+                android:layout_width="316dp"
+                android:layout_height="110dp"
+                android:layout_gravity="center"
+                android:padding="10dp">
+
+                <TextView
+                    android:id="@+id/ht3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:text="Aloo Tikki"
+                    android:textColor="#fff"
+                    android:textSize="20dp"
+                    android:textStyle="bold" />
+
+                <ImageView
+                    android:id="@+id/iv4"
+                    android:layout_width="120dp"
+                    android:layout_height="18dp"
+                    android:layout_below="@id/ht3"
+                    android:layout_marginTop="8dp"
+                    android:src="@drawable/rating_orange_small" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/iv4"
+                    android:layout_marginTop="5dp"
+                    android:text="Non Vegetarian - Egg"
+                    android:textColor="#C3C3C3"
+                    android:textSize="14dp" />
+
+                <Button
+                    android:layout_width="110dp"
+                    android:layout_height="35dp"
+                    android:text="Order now"
+                    android:textSize="11dp"
+                    android:textColor="#fff"
+                    android:textStyle="bold"
+                    android:background="@drawable/button"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="10dp"/>
+
+            </RelativeLayout>
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</LinearLayout>
